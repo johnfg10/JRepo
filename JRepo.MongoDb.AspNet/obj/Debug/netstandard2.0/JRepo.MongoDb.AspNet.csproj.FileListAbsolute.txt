@@ -1,0 +1,16 @@
+C:\Users\jgray\source\repos\JUtils\JRepo.MongoDb.AspNet\bin\Debug\netstandard2.0\JRepo.MongoDb.AspNet.deps.json
+C:\Users\jgray\source\repos\JUtils\JRepo.MongoDb.AspNet\bin\Debug\netstandard2.0\JRepo.MongoDb.AspNet.dll
+C:\Users\jgray\source\repos\JUtils\JRepo.MongoDb.AspNet\obj\Debug\netstandard2.0\JRepo.MongoDb.AspNet.csproj.CoreCompileInputs.cache
+C:\Users\jgray\source\repos\JUtils\JRepo.MongoDb.AspNet\obj\Debug\netstandard2.0\JRepo.MongoDb.AspNet.AssemblyInfoInputs.cache
+C:\Users\jgray\source\repos\JUtils\JRepo.MongoDb.AspNet\obj\Debug\netstandard2.0\JRepo.MongoDb.AspNet.AssemblyInfo.cs
+C:\Users\jgray\source\repos\JUtils\JRepo.MongoDb.AspNet\bin\Debug\netstandard2.0\JRepo.MongoDb.AspNet.pdb
+C:\Users\jgray\source\repos\JUtils\JRepo.MongoDb.AspNet\bin\Debug\netstandard2.0\JRepo.AspNet.dll
+C:\Users\jgray\source\repos\JUtils\JRepo.MongoDb.AspNet\bin\Debug\netstandard2.0\JRepo.Core.dll
+C:\Users\jgray\source\repos\JUtils\JRepo.MongoDb.AspNet\bin\Debug\netstandard2.0\JRepo.MongoDb.dll
+C:\Users\jgray\source\repos\JUtils\JRepo.MongoDb.AspNet\bin\Debug\netstandard2.0\JRepo.AspNet.pdb
+C:\Users\jgray\source\repos\JUtils\JRepo.MongoDb.AspNet\bin\Debug\netstandard2.0\JRepo.Core.pdb
+C:\Users\jgray\source\repos\JUtils\JRepo.MongoDb.AspNet\bin\Debug\netstandard2.0\JRepo.MongoDb.pdb
+C:\Users\jgray\source\repos\JUtils\JRepo.MongoDb.AspNet\obj\Debug\netstandard2.0\JRepo.MongoDb.AspNet.csprojAssemblyReference.cache
+C:\Users\jgray\source\repos\JUtils\JRepo.MongoDb.AspNet\obj\Debug\netstandard2.0\JRepo.MongoDb.AspNet.csproj.CopyComplete
+C:\Users\jgray\source\repos\JUtils\JRepo.MongoDb.AspNet\obj\Debug\netstandard2.0\JRepo.MongoDb.AspNet.dll
+C:\Users\jgray\source\repos\JUtils\JRepo.MongoDb.AspNet\obj\Debug\netstandard2.0\JRepo.MongoDb.AspNet.pdb

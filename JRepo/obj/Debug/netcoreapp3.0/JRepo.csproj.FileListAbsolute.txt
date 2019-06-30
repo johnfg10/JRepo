@@ -1,9 +1,0 @@
-C:\Users\jgray\source\repos\JUtils\JRepo\bin\Debug\netcoreapp3.0\JRepo.deps.json
-C:\Users\jgray\source\repos\JUtils\JRepo\bin\Debug\netcoreapp3.0\JRepo.dll
-C:\Users\jgray\source\repos\JUtils\JRepo\bin\Debug\netcoreapp3.0\JRepo.pdb
-C:\Users\jgray\source\repos\JUtils\JRepo\obj\Debug\netcoreapp3.0\JRepo.csprojAssemblyReference.cache
-C:\Users\jgray\source\repos\JUtils\JRepo\obj\Debug\netcoreapp3.0\JRepo.csproj.CoreCompileInputs.cache
-C:\Users\jgray\source\repos\JUtils\JRepo\obj\Debug\netcoreapp3.0\JRepo.AssemblyInfoInputs.cache
-C:\Users\jgray\source\repos\JUtils\JRepo\obj\Debug\netcoreapp3.0\JRepo.AssemblyInfo.cs
-C:\Users\jgray\source\repos\JUtils\JRepo\obj\Debug\netcoreapp3.0\JRepo.dll
-C:\Users\jgray\source\repos\JUtils\JRepo\obj\Debug\netcoreapp3.0\JRepo.pdb

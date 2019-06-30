@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\jgray\.Rider2019.1\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\jgray\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\jgray\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_JUtils.-811188740.00" t="ExcludeRecursive" />
+    <e p="C:\Users\jgray\source\repos\JUtils" t="IncludeFlat">
+      <e p=".git\info\exclude" t="IncludeRecursive" />
+      <e p="JRepo.AspNet" t="IncludeRecursive">
+        <e p="AspNetCoreExtensions.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="JRepo.AspNet.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="JRepo.AspNet.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="JRepo.Core" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="IRepository.cs" t="Include" />
+        <e p="JRepo.Core.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="JRepo.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="JRepo.MongoDb" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="JRepo.MongoDb.csproj" t="IncludeRecursive" />
+        <e p="MongoRepository.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="JRepo.MongoDb.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="JRepo.MongoDb.AspNet" t="IncludeRecursive">
+        <e p="AspNetCoreExtensions.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="JRepo.MongoDb.AspNet.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="JRepo.MongoDb.AspNet.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="JUtils.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+C:\Users\jgray\source\repos\JUtils\JRepo.AspNet\bin\Debug\netstandard2.0\JRepo.AspNet.deps.json
+C:\Users\jgray\source\repos\JUtils\JRepo.AspNet\bin\Debug\netstandard2.0\JRepo.AspNet.dll
+C:\Users\jgray\source\repos\JUtils\JRepo.AspNet\obj\Debug\netstandard2.0\JRepo.AspNet.csprojAssemblyReference.cache
+C:\Users\jgray\source\repos\JUtils\JRepo.AspNet\obj\Debug\netstandard2.0\JRepo.AspNet.csproj.CoreCompileInputs.cache
+C:\Users\jgray\source\repos\JUtils\JRepo.AspNet\obj\Debug\netstandard2.0\JRepo.AspNet.AssemblyInfoInputs.cache
+C:\Users\jgray\source\repos\JUtils\JRepo.AspNet\obj\Debug\netstandard2.0\JRepo.AspNet.AssemblyInfo.cs
+C:\Users\jgray\source\repos\JUtils\JRepo.AspNet\bin\Debug\netstandard2.0\JRepo.AspNet.pdb
+C:\Users\jgray\source\repos\JUtils\JRepo.AspNet\bin\Debug\netstandard2.0\JRepo.Core.dll
+C:\Users\jgray\source\repos\JUtils\JRepo.AspNet\bin\Debug\netstandard2.0\JRepo.Core.pdb
+C:\Users\jgray\source\repos\JUtils\JRepo.AspNet\obj\Debug\netstandard2.0\JRepo.AspNet.csproj.CopyComplete
+C:\Users\jgray\source\repos\JUtils\JRepo.AspNet\obj\Debug\netstandard2.0\JRepo.AspNet.dll
+C:\Users\jgray\source\repos\JUtils\JRepo.AspNet\obj\Debug\netstandard2.0\JRepo.AspNet.pdb
