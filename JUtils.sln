@@ -10,13 +10,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JRepo.MongoDb", "JRepo.Mong
 		{BC333A0D-5EEF-43D3-BC4A-664607FB68BA} = {BC333A0D-5EEF-43D3-BC4A-664607FB68BA}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JRepo.AspNet", "JRepo.AspNet\JRepo.AspNet.csproj", "{790CB2E2-A630-4E03-A3DC-90C41265F606}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JRepo.AspNet", "JRepo.AspNet\JRepo.AspNet.csproj", "{790CB2E2-A630-4E03-A3DC-90C41265F606}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JRepo.MongoDb.AspNet", "JRepo.MongoDb.AspNet\JRepo.MongoDb.AspNet.csproj", "{8BAD1C69-0E71-447D-9541-0305EC8158AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JRepo.MongoDb.AspNet", "JRepo.MongoDb.AspNet\JRepo.MongoDb.AspNet.csproj", "{8BAD1C69-0E71-447D-9541-0305EC8158AE}"
 	ProjectSection(ProjectDependencies) = postProject
 		{99EB0C36-A544-4202-99B0-8767E65BF9B7} = {99EB0C36-A544-4202-99B0-8767E65BF9B7}
 		{790CB2E2-A630-4E03-A3DC-90C41265F606} = {790CB2E2-A630-4E03-A3DC-90C41265F606}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JGuid.Core", "JGuid.Core\JGuid.Core.csproj", "{F533ECF6-B264-4C76-9A01-556F79003302}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JGuid.AspNetCore", "JGuid.AspNetCore\JGuid.AspNetCore.csproj", "{BA988649-7BF2-4712-A5D8-B0B4D19A5880}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,6 +44,14 @@ Global
 		{8BAD1C69-0E71-447D-9541-0305EC8158AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BAD1C69-0E71-447D-9541-0305EC8158AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BAD1C69-0E71-447D-9541-0305EC8158AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F533ECF6-B264-4C76-9A01-556F79003302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F533ECF6-B264-4C76-9A01-556F79003302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F533ECF6-B264-4C76-9A01-556F79003302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F533ECF6-B264-4C76-9A01-556F79003302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA988649-7BF2-4712-A5D8-B0B4D19A5880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA988649-7BF2-4712-A5D8-B0B4D19A5880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA988649-7BF2-4712-A5D8-B0B4D19A5880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA988649-7BF2-4712-A5D8-B0B4D19A5880}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

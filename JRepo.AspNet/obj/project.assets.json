@@ -35,7 +35,7 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "JRepo.Core/1.0.0": {
+      "JRepo.Core/1.0.1": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
@@ -204,7 +204,7 @@
         "netstandard.library.nuspec"
       ]
     },
-    "JRepo.Core/1.0.0": {
+    "JRepo.Core/1.0.1": {
       "type": "project",
       "path": "../JRepo.Core/JRepo.Core.csproj",
       "msbuildProject": "../JRepo.Core/JRepo.Core.csproj"
@@ -212,7 +212,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "JRepo.Core >= 1.0.0",
+      "JRepo.Core >= 1.0.1",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 2.2.0",
       "NETStandard.Library >= 2.0.3"
     ]
@@ -222,7 +222,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
       "projectUniqueName": "C:\\Users\\jgray\\source\\repos\\JUtils\\JRepo.AspNet\\JRepo.AspNet.csproj",
       "projectName": "JRepo.AspNet",
@@ -242,8 +242,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/F/dsharpplus-nightly/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {

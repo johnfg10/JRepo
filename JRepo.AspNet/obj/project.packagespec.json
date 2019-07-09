@@ -1,5 +1,5 @@
 ﻿{
-  "version": "1.0.0",
+  "version": "1.0.1",
   "restore": {
     "projectUniqueName": "C:\\Users\\jgray\\source\\repos\\JUtils\\JRepo.AspNet\\JRepo.AspNet.csproj",
     "projectName": "JRepo.AspNet",
@@ -14,8 +14,7 @@
     ],
     "sources": {
       "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-      "https://api.nuget.org/v3/index.json": {},
-      "https://www.myget.org/F/dsharpplus-nightly/api/v3/index.json": {}
+      "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
       "netstandard2.0": {

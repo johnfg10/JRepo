@@ -37,5 +37,10 @@ namespace JRepo.MongoDb
         {
             return MongoCollection.UpdateOneAsync(predicate, new ObjectUpdateDefinition<T>(updateObject));
         }
+        
+        public Task UpdateAsync(Expression<Func<T, bool>> predicate, string updateJson)
+        {
+            return MongoCollection.UpdateOneAsync(predicate, new JsonUpdateDefinition<T>(updateJson));
+        }
     }
 }
