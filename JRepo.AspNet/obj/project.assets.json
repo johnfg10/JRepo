@@ -35,7 +35,7 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "JRepo.Core/1.0.1": {
+      "JRepo.Core/1.1.1": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
@@ -62,7 +62,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "sha512": "ZOGidvmoV8FWD+LfD/U7EHDcBjTJov3ZFolm8MTv/s36nEkvF5QwBPXfNvcWUMY7obFYXmQmalDomURnnwyr1g==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -204,7 +204,7 @@
         "netstandard.library.nuspec"
       ]
     },
-    "JRepo.Core/1.0.1": {
+    "JRepo.Core/1.1.1": {
       "type": "project",
       "path": "../JRepo.Core/JRepo.Core.csproj",
       "msbuildProject": "../JRepo.Core/JRepo.Core.csproj"
@@ -212,7 +212,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "JRepo.Core >= 1.0.1",
+      "JRepo.Core >= 1.1.1",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 2.2.0",
       "NETStandard.Library >= 2.0.3"
     ]

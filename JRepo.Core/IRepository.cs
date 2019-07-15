@@ -10,10 +10,14 @@ namespace JRepo.Core
     public interface IRepository<T>
     {
         Task<List<T>> GetAsync(Expression<Func<T, bool>> predicate);
+        
+        Task<T> GetOneAsync(Expression<Func<T, bool>> predicate);
 
+        Task ReplaceOneAsync(Expression<Func<T, bool>> predicate, T replaceObj);
+        
         Task UpdateAsync(Expression<Func<T, bool>> predicate, object updateObject);
         
-        Task UpdateAsync(Expression<Func<T, bool>> predicate, string updateJson);
+        Task UpdateStringAsync(Expression<Func<T, bool>> predicate, string updateJson);
 
         Task DeleteAsync(Expression<Func<T, bool>> predicate);
 

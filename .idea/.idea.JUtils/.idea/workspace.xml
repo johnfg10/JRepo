@@ -1,46 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94ac6396-c12e-4011-bada-abcbdc8f1042" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.JUtils/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JUtils/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="94ac6396-c12e-4011-bada-abcbdc8f1042" name="Default Changelist" comment="Added basic json support to both core and mongodb and bumped version">
+      <change afterPath="$PROJECT_DIR$/JGuid.AspNetCore/AspNetCoreExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.AspNetCore/JGuid.AspNetCore.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.AspNetCore/bin/Debug/JGuid.AspNetCore.1.0.0.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.AspNetCore/bin/Debug/netstandard2.0/JGuid.AspNetCore.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.AspNetCore/bin/Debug/netstandard2.0/JGuid.AspNetCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.AspNetCore/bin/Debug/netstandard2.0/JGuid.AspNetCore.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.AspNetCore/bin/Debug/netstandard2.0/JGuid.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.AspNetCore/bin/Debug/netstandard2.0/JGuid.Core.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.AspNetCore/obj/Debug/JGuid.AspNetCore.1.0.0.nuspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.AspNetCore/obj/Debug/netstandard2.0/JGuid.AspNetCore.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.AspNetCore/obj/Debug/netstandard2.0/JGuid.AspNetCore.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.AspNetCore/obj/Debug/netstandard2.0/JGuid.AspNetCore.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.AspNetCore/obj/Debug/netstandard2.0/JGuid.AspNetCore.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.AspNetCore/obj/Debug/netstandard2.0/JGuid.AspNetCore.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.AspNetCore/obj/Debug/netstandard2.0/JGuid.AspNetCore.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.AspNetCore/obj/Debug/netstandard2.0/JGuid.AspNetCore.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.AspNetCore/obj/Debug/netstandard2.0/JGuid.AspNetCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.AspNetCore/obj/Debug/netstandard2.0/JGuid.AspNetCore.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.AspNetCore/obj/JGuid.AspNetCore.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.AspNetCore/obj/JGuid.AspNetCore.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.AspNetCore/obj/JGuid.AspNetCore.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.AspNetCore/obj/JGuid.AspNetCore.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.AspNetCore/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.AspNetCore/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.Core/DefaultGuidGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.Core/IGuidGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.Core/JGuid.Core.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.Core/bin/Debug/JGuid.Core.1.0.0.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.Core/bin/Debug/JGuid.Core.1.0.1.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.Core/bin/Debug/netstandard2.0/JGuid.Core.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.Core/bin/Debug/netstandard2.0/JGuid.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.Core/bin/Debug/netstandard2.0/JGuid.Core.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.Core/obj/Debug/JGuid.Core.1.0.0.nuspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.Core/obj/Debug/JGuid.Core.1.0.1.nuspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.Core/obj/Debug/netstandard2.0/JGuid.Core.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.Core/obj/Debug/netstandard2.0/JGuid.Core.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.Core/obj/Debug/netstandard2.0/JGuid.Core.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.Core/obj/Debug/netstandard2.0/JGuid.Core.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.Core/obj/Debug/netstandard2.0/JGuid.Core.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.Core/obj/Debug/netstandard2.0/JGuid.Core.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.Core/obj/Debug/netstandard2.0/JGuid.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.Core/obj/Debug/netstandard2.0/JGuid.Core.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.Core/obj/JGuid.Core.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.Core/obj/JGuid.Core.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.Core/obj/JGuid.Core.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.Core/obj/JGuid.Core.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.Core/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGuid.Core/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JRepo.Core/bin/Debug/JRepo.Core.1.0.1.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JRepo.Core/obj/Debug/JRepo.Core.1.0.1.nuspec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.JUtils/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JUtils/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.AspNet/obj/Debug/netstandard2.0/JRepo.AspNet.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.AspNet/obj/Debug/netstandard2.0/JRepo.AspNet.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.AspNet/obj/JRepo.AspNet.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.AspNet/obj/JRepo.AspNet.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JRepo.AspNet/obj/JRepo.AspNet.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.AspNet/obj/JRepo.AspNet.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.AspNet/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.AspNet/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JRepo.AspNet/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.AspNet/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.Core/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.Core/IRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JRepo.Core/bin/Debug/JRepo.Core.1.0.0.nupkg" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.Core/bin/Debug/JRepo.Core.1.0.0.nupkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JRepo.Core/JRepo.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.Core/JRepo.Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JRepo.Core/bin/Debug/netstandard2.0/JRepo.Core.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.Core/bin/Debug/netstandard2.0/JRepo.Core.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.Core/bin/Debug/netstandard2.0/JRepo.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.Core/bin/Debug/netstandard2.0/JRepo.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.Core/bin/Debug/netstandard2.0/JRepo.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.Core/bin/Debug/netstandard2.0/JRepo.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JRepo.Core/obj/Debug/netstandard2.0/JRepo.Core.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.Core/obj/Debug/netstandard2.0/JRepo.Core.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.Core/obj/Debug/netstandard2.0/JRepo.Core.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.Core/obj/Debug/netstandard2.0/JRepo.Core.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.Core/obj/Debug/netstandard2.0/JRepo.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.Core/obj/Debug/netstandard2.0/JRepo.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.Core/obj/Debug/netstandard2.0/JRepo.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.Core/obj/Debug/netstandard2.0/JRepo.Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.Core/obj/JRepo.Core.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.Core/obj/JRepo.Core.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JRepo.Core/obj/JRepo.Core.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.Core/obj/JRepo.Core.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.Core/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.Core/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.Core/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JRepo.MongoDb.AspNet/obj/Debug/netstandard2.0/JRepo.MongoDb.AspNet.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.MongoDb.AspNet/obj/Debug/netstandard2.0/JRepo.MongoDb.AspNet.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.MongoDb.AspNet/obj/Debug/netstandard2.0/JRepo.MongoDb.AspNet.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.MongoDb.AspNet/obj/Debug/netstandard2.0/JRepo.MongoDb.AspNet.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.MongoDb.AspNet/obj/JRepo.MongoDb.AspNet.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.MongoDb.AspNet/obj/JRepo.MongoDb.AspNet.csproj.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.MongoDb.AspNet/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.MongoDb.AspNet/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JRepo.MongoDb.AspNet/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.MongoDb.AspNet/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JRepo.MongoDb/JRepo.MongoDb.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.MongoDb/JRepo.MongoDb.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.MongoDb/MongoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.MongoDb/MongoRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JRepo.MongoDb/bin/Debug/JRepo.MongoDb.1.0.0.nupkg" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.MongoDb/bin/Debug/JRepo.MongoDb.1.0.0.nupkg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.MongoDb/bin/Debug/netstandard2.0/JRepo.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.MongoDb/bin/Debug/netstandard2.0/JRepo.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.MongoDb/bin/Debug/netstandard2.0/JRepo.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.MongoDb/bin/Debug/netstandard2.0/JRepo.Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.MongoDb/bin/Debug/netstandard2.0/JRepo.MongoDb.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.MongoDb/bin/Debug/netstandard2.0/JRepo.MongoDb.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.MongoDb/bin/Debug/netstandard2.0/JRepo.MongoDb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.MongoDb/bin/Debug/netstandard2.0/JRepo.MongoDb.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.MongoDb/bin/Debug/netstandard2.0/JRepo.MongoDb.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.MongoDb/bin/Debug/netstandard2.0/JRepo.MongoDb.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JRepo.MongoDb/obj/Debug/netstandard2.0/JRepo.MongoDb.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.MongoDb/obj/Debug/netstandard2.0/JRepo.MongoDb.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JRepo.MongoDb/obj/Debug/netstandard2.0/JRepo.MongoDb.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.MongoDb/obj/Debug/netstandard2.0/JRepo.MongoDb.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JRepo.MongoDb/obj/Debug/netstandard2.0/JRepo.MongoDb.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.MongoDb/obj/Debug/netstandard2.0/JRepo.MongoDb.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.MongoDb/obj/Debug/netstandard2.0/JRepo.MongoDb.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.MongoDb/obj/Debug/netstandard2.0/JRepo.MongoDb.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.MongoDb/obj/Debug/netstandard2.0/JRepo.MongoDb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.MongoDb/obj/Debug/netstandard2.0/JRepo.MongoDb.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.MongoDb/obj/Debug/netstandard2.0/JRepo.MongoDb.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.MongoDb/obj/Debug/netstandard2.0/JRepo.MongoDb.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.MongoDb/obj/JRepo.MongoDb.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.MongoDb/obj/JRepo.MongoDb.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JRepo.MongoDb/obj/JRepo.MongoDb.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.MongoDb/obj/JRepo.MongoDb.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.MongoDb/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.MongoDb/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JRepo.MongoDb/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/JRepo.MongoDb/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUtils.sln" beforeDir="false" afterPath="$PROJECT_DIR$/JUtils.sln" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +94,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="John &lt;johnfg2610@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/JRepo.MongoDb/MongoRepository.cs" root0="FORCE_HIGHLIGHTING" />
@@ -62,9 +113,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/JRepo.MongoDb.AspNet/AspNetCoreExtensions.cs" />
+        <option value="$PROJECT_DIR$/JRepo.MongoDb/JRepo.MongoDb.csproj" />
         <option value="$PROJECT_DIR$/JRepo.Core/IRepository.cs" />
         <option value="$PROJECT_DIR$/JRepo.MongoDb/MongoRepository.cs" />
-        <option value="$PROJECT_DIR$/JRepo.MongoDb/JRepo.MongoDb.csproj" />
       </list>
     </option>
   </component>
@@ -76,6 +127,7 @@
   </component>
   <component name="ProjectId" id="1NcVe5YFSJqZSmrGaWeWibANmbX" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
@@ -109,8 +161,19 @@
       <updated>1561880462276</updated>
       <workItem from="1561880465387" duration="254000" />
       <workItem from="1562380464581" duration="621000" />
-      <workItem from="1562657654233" duration="158000" />
+      <workItem from="1562657654233" duration="1665000" />
+      <workItem from="1562889740964" duration="1613000" />
+      <workItem from="1562991050891" duration="614000" />
+      <workItem from="1563154088048" duration="94000" />
     </task>
+    <task id="LOCAL-00001" summary="Added basic json support to both core and mongodb and bumped version">
+      <created>1562658043078</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562658043078</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +193,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added basic json support to both core and mongodb and bumped version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added basic json support to both core and mongodb and bumped version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
