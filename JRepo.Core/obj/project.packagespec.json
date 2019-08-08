@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.1.1",
   "restore": {
-    "projectUniqueName": "C:\\Users\\jgray\\source\\repos\\JUtils\\JRepo.Core\\JRepo.Core.csproj",
+    "projectUniqueName": "C:\\Users\\john\\Documents\\GitHub\\JUtils\\JRepo.Core\\JRepo.Core.csproj",
     "projectName": "JRepo.Core",
-    "projectPath": "C:\\Users\\jgray\\source\\repos\\JUtils\\JRepo.Core\\JRepo.Core.csproj",
-    "outputPath": "C:\\Users\\jgray\\source\\repos\\JUtils\\JRepo.Core\\obj\\",
+    "projectPath": "C:\\Users\\john\\Documents\\GitHub\\JUtils\\JRepo.Core\\JRepo.Core.csproj",
+    "outputPath": "C:\\Users\\john\\Documents\\GitHub\\JUtils\\JRepo.Core\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13,7 +13,6 @@
       "netstandard2.0"
     ],
     "sources": {
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
@@ -38,12 +37,7 @@
         }
       },
       "imports": [
-        "net461",
-        "net462",
-        "net47",
-        "net471",
-        "net472",
-        "net48"
+        "net461"
       ],
       "assetTargetFallback": true,
       "warn": true

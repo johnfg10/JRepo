@@ -1,9 +1,0 @@
-C:\Users\jgray\source\repos\JUtils\JGuid.Core\bin\Debug\netstandard2.0\JGuid.Core.deps.json
-C:\Users\jgray\source\repos\JUtils\JGuid.Core\bin\Debug\netstandard2.0\JGuid.Core.dll
-C:\Users\jgray\source\repos\JUtils\JGuid.Core\bin\Debug\netstandard2.0\JGuid.Core.pdb
-C:\Users\jgray\source\repos\JUtils\JGuid.Core\obj\Debug\netstandard2.0\JGuid.Core.csproj.CoreCompileInputs.cache
-C:\Users\jgray\source\repos\JUtils\JGuid.Core\obj\Debug\netstandard2.0\JGuid.Core.AssemblyInfoInputs.cache
-C:\Users\jgray\source\repos\JUtils\JGuid.Core\obj\Debug\netstandard2.0\JGuid.Core.AssemblyInfo.cs
-C:\Users\jgray\source\repos\JUtils\JGuid.Core\obj\Debug\netstandard2.0\JGuid.Core.dll
-C:\Users\jgray\source\repos\JUtils\JGuid.Core\obj\Debug\netstandard2.0\JGuid.Core.pdb
-C:\Users\jgray\source\repos\JUtils\JGuid.Core\obj\Debug\netstandard2.0\JGuid.Core.csprojAssemblyReference.cache

@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.1.1",
   "restore": {
-    "projectUniqueName": "C:\\Users\\jgray\\source\\repos\\JUtils\\JRepo.MongoDb\\JRepo.MongoDb.csproj",
+    "projectUniqueName": "C:\\Users\\john\\Documents\\GitHub\\JUtils\\JRepo.MongoDb\\JRepo.MongoDb.csproj",
     "projectName": "JRepo.MongoDb",
-    "projectPath": "C:\\Users\\jgray\\source\\repos\\JUtils\\JRepo.MongoDb\\JRepo.MongoDb.csproj",
-    "outputPath": "C:\\Users\\jgray\\source\\repos\\JUtils\\JRepo.MongoDb\\obj\\",
+    "projectPath": "C:\\Users\\john\\Documents\\GitHub\\JUtils\\JRepo.MongoDb\\JRepo.MongoDb.csproj",
+    "outputPath": "C:\\Users\\john\\Documents\\GitHub\\JUtils\\JRepo.MongoDb\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13,14 +13,13 @@
       "netstandard2.0"
     ],
     "sources": {
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
       "netstandard2.0": {
         "projectReferences": {
-          "C:\\Users\\jgray\\source\\repos\\JUtils\\JRepo.Core\\JRepo.Core.csproj": {
-            "projectPath": "C:\\Users\\jgray\\source\\repos\\JUtils\\JRepo.Core\\JRepo.Core.csproj"
+          "C:\\Users\\john\\Documents\\GitHub\\JUtils\\JRepo.Core\\JRepo.Core.csproj": {
+            "projectPath": "C:\\Users\\john\\Documents\\GitHub\\JUtils\\JRepo.Core\\JRepo.Core.csproj"
           }
         }
       }
@@ -46,12 +45,7 @@
         }
       },
       "imports": [
-        "net461",
-        "net462",
-        "net47",
-        "net471",
-        "net472",
-        "net48"
+        "net461"
       ],
       "assetTargetFallback": true,
       "warn": true
