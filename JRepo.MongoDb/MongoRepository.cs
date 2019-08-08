@@ -11,11 +11,22 @@ namespace JRepo.MongoDb
 {
     public class MongoRepository<T> : IRepository<T>
     {
-        public MongoRepository(IMongoCollection<T> mongoCollection)
+        public MongoRepository(IMongoCollection<T> mongoCollection = null)
         {
             MongoCollection = mongoCollection;
         }
 
+        public MongoRepository(IMongoDatabase mongoDatabase) : this(mongoDatabase,
+            typeof(T).Name.Replace("model", "").Replace("models", ""))
+        {
+        }
+
+
+        public MongoRepository(IMongoDatabase mongoDatabase, string storeName)
+        {
+            MongoCollection = mongoDatabase.GetCollection<T>(storeName);
+        }
+        
         public IMongoCollection<T> MongoCollection { get; }
 
         public Task CreateAsync(T obj)
