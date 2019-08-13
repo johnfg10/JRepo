@@ -7,3 +7,12 @@ C:\Users\jgray\source\repos\JUtils\JRepo.Core\obj\Debug\netstandard2.0\JRepo.Cor
 C:\Users\jgray\source\repos\JUtils\JRepo.Core\obj\Debug\netstandard2.0\JRepo.Core.AssemblyInfo.cs
 C:\Users\jgray\source\repos\JUtils\JRepo.Core\obj\Debug\netstandard2.0\JRepo.Core.dll
 C:\Users\jgray\source\repos\JUtils\JRepo.Core\obj\Debug\netstandard2.0\JRepo.Core.pdb
+C:\Users\john\Documents\GitHub\JUtils\JRepo.Core\bin\Debug\netstandard2.0\JRepo.Core.deps.json
+C:\Users\john\Documents\GitHub\JUtils\JRepo.Core\bin\Debug\netstandard2.0\JRepo.Core.dll
+C:\Users\john\Documents\GitHub\JUtils\JRepo.Core\bin\Debug\netstandard2.0\JRepo.Core.pdb
+C:\Users\john\Documents\GitHub\JUtils\JRepo.Core\obj\Debug\netstandard2.0\JRepo.Core.csprojAssemblyReference.cache
+C:\Users\john\Documents\GitHub\JUtils\JRepo.Core\obj\Debug\netstandard2.0\JRepo.Core.csproj.CoreCompileInputs.cache
+C:\Users\john\Documents\GitHub\JUtils\JRepo.Core\obj\Debug\netstandard2.0\JRepo.Core.AssemblyInfoInputs.cache
+C:\Users\john\Documents\GitHub\JUtils\JRepo.Core\obj\Debug\netstandard2.0\JRepo.Core.AssemblyInfo.cs
+C:\Users\john\Documents\GitHub\JUtils\JRepo.Core\obj\Debug\netstandard2.0\JRepo.Core.dll
+C:\Users\john\Documents\GitHub\JUtils\JRepo.Core\obj\Debug\netstandard2.0\JRepo.Core.pdb

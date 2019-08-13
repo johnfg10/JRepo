@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard1.5</TargetFramework>
     <NeutralLanguage>English (United Kingdom)</NeutralLanguage>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/johnfg10/JUtils</PackageProjectUrl>
@@ -9,7 +9,7 @@
     <RepositoryType>GIT</RepositoryType>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>A simple package to provide repository like services</Description>
-    <PackageVersion>1.1.1</PackageVersion>
+    <PackageVersion>1.4.0</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>

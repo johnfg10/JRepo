@@ -1,5 +1,5 @@
 ﻿{
-  "version": "1.1.1",
+  "version": "1.4.0",
   "restore": {
     "projectUniqueName": "C:\\Users\\john\\Documents\\GitHub\\JUtils\\JRepo.MongoDb\\JRepo.MongoDb.csproj",
     "projectName": "JRepo.MongoDb",
@@ -10,13 +10,14 @@
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
-      "netstandard2.0"
+      "netstandard1.5"
     ],
     "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
-      "netstandard2.0": {
+      "netstandard1.5": {
         "projectReferences": {
           "C:\\Users\\john\\Documents\\GitHub\\JUtils\\JRepo.Core\\JRepo.Core.csproj": {
             "projectPath": "C:\\Users\\john\\Documents\\GitHub\\JUtils\\JRepo.Core\\JRepo.Core.csproj"
@@ -31,7 +32,7 @@
     }
   },
   "frameworks": {
-    "netstandard2.0": {
+    "netstandard1.5": {
       "dependencies": {
         "MongoDB.Driver": {
           "target": "Package",
@@ -40,15 +41,10 @@
         "NETStandard.Library": {
           "suppressParent": "All",
           "target": "Package",
-          "version": "[2.0.3, )",
+          "version": "[1.6.1, )",
           "autoReferenced": true
         }
-      },
-      "imports": [
-        "net461"
-      ],
-      "assetTargetFallback": true,
-      "warn": true
+      }
     }
   }
 }

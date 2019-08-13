@@ -2,6 +2,7 @@
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,7 +10,7 @@ using MongoDB.Bson;
 
 namespace JRepo.MongoDb
 {
-    public class MongoRepository<T> : IRepository<T>
+    public class MongoRepository<TKey, T> : IRepository<TKey, T> where T : IId<TKey>
     {
         public MongoRepository(IMongoCollection<T> mongoCollection = null)
         {
@@ -34,12 +35,17 @@ namespace JRepo.MongoDb
             return MongoCollection.InsertOneAsync(obj);
         }
 
+        public IQueryable<T> Queryable()
+        {
+            return MongoCollection.AsQueryable();
+        }
+
         public Task DeleteAsync(Expression<Func<T, bool>> predicate)
         {
             return MongoCollection.DeleteOneAsync(predicate);
         }
 
-        public async Task<List<T>> GetAsync(Expression<Func<T,bool>> predicate)
+        public async Task<List<T>> GetAsync(Expression<Func<T, bool>> predicate)
         {
             var res = await MongoCollection.FindAsync<T>(predicate);
             return await res.ToListAsync();
